@@ -1,9 +1,0 @@
--c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections
--I J:\AbuBakar\GitHub\NewProject\RTE
--I J:\AbuBakar\GitHub\NewProject\RTE\Device\STM32F407VGTx
--I C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
--I C:\Keil_v5\ARM\PACK\Keil\MDK-Middleware\6.4.0\Board
--I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
--I C:\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.4.0\Drivers\STM32F4xx_HAL_Driver\Inc
--D__UVISION_VERSION="515" -D_RTE_ -DSTM32F407xx
--o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d "main.c"
